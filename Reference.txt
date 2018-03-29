@@ -1,0 +1,16 @@
+MSGEQ7資料夾：
+	Arduino 燒錄 bim 檔
+	Reference:
+	http://www.jarzebski.pl/arduino/komponenty/7-kanalowy-equalizer-msgeq7.html
+
+Qt Creator 產生 python檔案
+	pyuic5 mainwindow.ui -o pyqtwindow.py
+
+
+
+打包成exe
+	https://blog.csdn.net/damnivictory/article/details/73527160
+pyinstaller -F -w --paths=C:\Python\Python35\Lib\site-packages\PyQt5\Qt\bin 
+--paths=C:\Python\Python35\Lib\site-packages\PyQt5\Qt\plugins  master.py
+
+pyinstaller -F -w --paths=D:\Study\Python_QT\env\Lib\site-packages\PyQt5\Qt\bin --paths=D:\Study\Python_QT\env\Lib\site-packages\PyQt5\Qt\plugins  main.py
